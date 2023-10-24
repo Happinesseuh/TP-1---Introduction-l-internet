@@ -8,50 +8,42 @@
 
   <!-- Load font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 </head>
 
-<!-- style="background-color: #171717" -->
-<body>
+<body id="home">
 
   <!-- HEADER -->
-  <div style="margin: 50px">
-    <div class="col-sm-4" >
-      <!-- <h3>Logo</h3> -->
-      <img src="../img/logo.png">
-    </div>
-    <div class="col-sm-2">
-      <i class="fas fa-home"></i>
-      <h3>Accueil</h3>
-    </div>
-    <div class="col-sm-2">
-      <i class="fas fa-solid fa-gears"></i>
-      <h3>Compétences</h3>
-    </div>
-    <div class="col-sm-2">
-      <h3>Projets</h3>
-    </div>
-    <div class="col-sm-2">
-      <h3>Nous contacter</h3>
-    </div>
+  <div class="m-50">
+        <img src="../img/logo.png">
+      <a href="Accueil - home.html" style="text-decoration: none; color: black;" class="menu-text">
+        <i class="fas fa-home mr-8"></i>
+        Accueil
+      </a>
+      <a href="Competences - skills.html" style="text-decoration: none; color: black;" class="menu-text">
+        <i class="fas fa-star mr-8"></i>
+        Compétences
+      </a>
+      <a href="Contact - contact.html" style="text-decoration: none; color: black;" class="menu-text">
+        <i class="fas fa-users mr-8"></i>
+        Projets
+      </a>
+      <a href="Projets - projects.html" style="text-decoration: none; color: black;" class="menu-text">
+        <i class="fas fa-id-card mr-8"></i>
+        Nous contacter
+      </a>
   </div>
-
-  <img src="../img/circles.png" style="display: flex; position: absolute; bottom: 30%; left: 5%">
 
   <!-- INES -->
 
-  <div class="col-sm-12" style="display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px">
+  <div class="col-sm-12 center">
       <div class="col-sm-8">
         <div class="col-sm-8">
-          <h1 style="text-decoration: underline;   text-decoration-color: #d9a593; text-decoration-thickness: 5px;">Inès Maaroufi</h1>
+          <h1 class="pink-underline">Inès Maaroufi</h1>
           <subtext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</subtext>
         </div>
         <div class="col-sm-4">
-          <!-- <img src="../img/ines.jpg"  width="210" height="379"> -->
           <img src="../img/ines.png">
 
         </div>
@@ -60,38 +52,31 @@
 
   <!-- THEO -->
 
-
-  <div class="col-sm-12" style="display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px">
+  <div class="col-sm-12 center">
       <div class="col-sm-8">
         <div class="col-sm-4">
-          <img src="../img/ines.png">
+          <img src="../img/theo.png">
         </div>
         <div class="col-sm-8">
-          <h1>Inès Maaroufi</h1>
+          <h1 class="blue-underline">Théo Regheasse</h1>
           <subtext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</subtext>
         </div>
       </div>
   </div>
 
-  <img src="../img/circles.png" style="display: flex; position: absolute; bottom: 30%; right: 5%">
-
-
   <!-- FOOTER -->
 
-  <div class="col-sm-12" style="padding-left: 50px; margin-top: 100px; text-align: center;">
-    <h2>Newletter</h2>
-    <form>Mettre icone</label>
+  <div class="col-sm-12 center-footer">
+    <h2 class="yellow-underline">Newsletter</h2>
+    <br>  
+    <form><i class="fas fa-envelope fa-lg"></i></label>
       <input type="text" value="e-mail" name="name" id="name" >
       <input type="submit" value="S'abonner">
     </form>
-      <i class="fab fa-brands fa-facebook" style="width: 210; height: 379"></i>
-      <i class="fab fa-brands fa-twitter"></i>
-      <i class="fab fa-brands fa-youtube"></i>
-      <i class="fa fa-address-book" aria-hidden="true"></i>
-
+    <br>
+    <a href="https://www.facebook.com/"><i class="fab fa-brands fa-facebook fa-lg"></i></a>
+    <a href="https://twitter.com/"><i class="fab fa-brands fa-twitter fa-lg"></i></a>
+    <a href="https://www.youtube.com/"><i class="fab fa-brands fa-youtube fa-lg"></i></a>
   </div>
 
 </body>
