@@ -5,7 +5,12 @@
     <title>Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/home.css">
+
+    <link rel="stylesheet" href="../css/center.css">
+    <link rel="stylesheet" href="../css/div.css">
+    <link rel="stylesheet" href="../css/elements.css">
+    <link rel="stylesheet" href="../css/underline.css">
+    <link rel="stylesheet" href="../css/margin.css">
 
     <!-- Load font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -39,7 +44,7 @@
 
     <div class="col-sm-12">
         <div class="col-sm-6">
-            <h1 style="margin-top: 125px;" class="yellow-underline ml-50"><i
+            <h1 class="yellow-underline ml-50 mt-125"><i
                     class="mr-18 fas fa-map-marker-alt"></i>Adresse</h1>
             <p class="ml-50">300, allée des Ursulines, C.P. 3300, succ. A, 300 All. des Ursulines, Rimouski, QC G5L 3A1
             </p>
@@ -53,57 +58,59 @@
         <div class="col-sm-4">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.207333290279!2d-68.51467612385986!3d48.452551329181375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4c95d9bf34e2acab%3A0x9a4c836523397f8e!2sUQAR%20-%20Universit%C3%A9%20du%20Qu%C3%A9bec%20%C3%A0%20Rimouski!5e0!3m2!1sfr!2sca!4v1698158612949!5m2!1sfr!2sca"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
-    <!-- <hr style="border-style: inset; width:100%; text-align:left; margin-left:0; margin-bottom: 100px; color: #FFD68F; height:10px"> -->
     <!-- FORMS -->
-    <!-- <div class="center-contacts"> -->
-        <div class="">
+    <div class="center-footer mt-600">
+        <h2 class="yellow-underline">Contactez-nous !</h2>
+    </div>
 
-    <div class="m-50 col-sm-12">
-            <form><label class="col-sm-1">Nom :</label>
-                <input type="text" id="name">
-            </form><br>
+    <div class="container mt-50">
+        <div class="row">
+            <form><label class="col-sm-5">Nom :</label>
+                <input class="col-sm-6" type="text" id="name">
+            </form><br><br>
 
-            <form><label class="col-sm-1">Prénom :</label>
-                <input type="text" id="firstname">
-            </form><br>
+            <form><label class="col-sm-5">Prénom :</label>
+                <input class="col-sm-6" type="text" id="firstname">
+            </form><br><br>
 
-            <form><label class="col-sm-1">Genre :</label>
-                <input type="radio" id="men">
-                <label for="men">Homme</label>
-                <input type="radio" id="women">
-                <label for="women">Femme</label>
-            </form><br>
+            <form><label class="col-sm-5">Genre :</label>
+                <div class="col-sm-7 p-0">
+                    <input type="radio" id="men">
+                    <label for="men">Homme</label>
+                    <input type="radio" id="women">
+                    <label for="women">Femme</label>
+                </div>
+            </form><br><br>
 
             <form>
-                <label for="fonctions" class="col-sm-1">Fonction : </label>
-                <select id="fonctions" name="fonctions">
+                <label class="col-sm-5" for="fonctions" class="">Fonction : </label>
+                <select class="col-sm-6" id="fonctions" name="fonctions">
                     <option value="fonctionnaire">Fonctionnaire</option>
                     <option value="ouvrier">Ouvrier</option>
                     <option value="enseignement">Enseignement</option>
                     <option value="encadrement">Encadrement</option>
                 </select>
-            </form><br>
+            </form><br><br>
 
-            <form><label class="col-sm-1">E-mail :</label>
-                <input type="text" id="mail">
-            </form><br>
+            <form><label class="col-sm-5">E-mail :</label>
+                <input class="col-sm-6" type="text" id="mail">
+            </form><br><br>
 
             <form>
-                <label class="col-sm-1" for="message">Message :</label>
+                <label class="col-sm-5" for="message">Message :</label>
                 <br>
-                <textarea id="message" name="message" rows="4" cols="50">Message</textarea>
+                <textarea class="col-sm-6" id="message" name="message" rows="4" cols="50">Message</textarea>
                 <br>
-                <input type="submit" value="Envoyer">
+                <input class="send-button mt-50" style="width: 400px;" class="col-sm-12" type="submit" value="Envoyer">
             </form>
         </div>
     </div>
-</div>
-
+    </div>
 
     <!-- FOOTER -->
     <div class="col-sm-12 center-footer">

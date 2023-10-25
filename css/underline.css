@@ -1,0 +1,19 @@
+
+.pink-underline {
+    text-decoration: underline;
+    text-decoration-color: #d9a593;
+    text-decoration-thickness: 5px;
+  }
+  
+  .blue-underline {
+    text-decoration: underline;
+    text-decoration-color: #584CF4;
+    text-decoration-thickness: 5px;
+  }
+  
+  .yellow-underline {
+    text-decoration: underline;
+    text-decoration-color: #FFD68F;
+    text-decoration-thickness: 5px;
+  }
+  

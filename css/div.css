@@ -1,0 +1,25 @@
+div > a {
+    color: #333;
+    display: inline-block;
+    position: relative;
+  }
+    
+  div > a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+    color: #333;
+    text-decoration: none;
+    
+  }
+  
+  div > a:hover::after, div > a.active-nav::after {
+    width: 100%;
+    background: #FFD68F;
+  }
+  
