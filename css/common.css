@@ -69,3 +69,7 @@ div > a {
   .m-50 {
     margin: 50px;
   }
+
+  .ml-50 {
+    margin-left: 50px
+  }

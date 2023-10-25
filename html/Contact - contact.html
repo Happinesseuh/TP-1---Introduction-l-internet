@@ -1,85 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Contact</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/home.css">
 
-  <!-- Load font awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 
     <!-- HEADER -->
-  <div class="m-50">
-    <img src="../img/logo.png">
-    <a href="Accueil - home.html" style="text-decoration: none; color: black;" class="menu-text">
-        <i class="fas fa-home mr-8"></i>
-        Accueil
-    </a>
-    <a href="Competences - skills.html" style="text-decoration: none; color: black;" class="menu-text">
-        <i class="fas fa-star mr-8"></i>
-        Compétences
-    </a>
-    <a href="Projets - projects.html" style="text-decoration: none; color: black;" class="menu-text">
-        <i class="fas fa-id-card mr-8"></i>
-        Projets
-    </a>
-    <a href="Contact - contact.html" style="text-decoration: none; color: black;" class="menu-text">
-        <i class="fas fa-users mr-8"></i>
-        Nous contacter
-    </a>
-  </div>
+    <div class="m-50">
+        <img src="../img/logo.png">
+        <a href="Accueil - home.html" style="text-decoration: none; color: black;" class="menu-text">
+            <i class="fas fa-home mr-8"></i>
+            Accueil
+        </a>
+        <a href="Competences - skills.html" style="text-decoration: none; color: black;" class="menu-text">
+            <i class="fas fa-star mr-8"></i>
+            Compétences
+        </a>
+        <a href="Projets - projects.html" style="text-decoration: none; color: black;" class="menu-text">
+            <i class="fas fa-id-card mr-8"></i>
+            Projets
+        </a>
+        <a href="Contact - contact.html" style="text-decoration: none; color: black;" class="menu-text">
+            <i class="fas fa-users mr-8"></i>
+            Nous contacter
+        </a>
+    </div>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.207333290279!2d-68.51467612385986!3d48.452551329181375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4c95d9bf34e2acab%3A0x9a4c836523397f8e!2sUQAR%20-%20Universit%C3%A9%20du%20Qu%C3%A9bec%20%C3%A0%20Rimouski!5e0!3m2!1sfr!2sca!4v1698158612949!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
-  <form><label>Nom :</label>
-    <input type="text" id="name" >
-  </form>
-  <form><label>Prénom :</label>
-    <input type="text" id="firstname" >
-  </form>
-  <form><label>Genre :</label>
-    <input type="radio" id="men">
-    <label for="men">Homme</label>
-    <input type="radio" id="women">
-    <label for="women">Femme</label>
- </form>
- <form>
-    <label for="fonctions">Fonction</label>
-    <select id="fonctions" name="fonctions">
-      <option value="fonctionnaire">Fonctionnaire</option>
-      <option value="ouvrier">Ouvrier</option>
-      <option value="enseignement">Enseignement</option>
-      <option value="encadrement">Encadrement</option>
-    </select>
-  </form>
-  <form><label>E-mail :</label>
-    <input type="text" id="mail" >
-  </form>
-  <form>
-    <label for="message">Message :</label>  
-    <textarea id="message" name="message" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
-    <br>
-    <input type="submit" value="Envoyer">
-  </form>
+    <!-- CONTACT -->
+
+    <div class="col-sm-12">
+        <div class="col-sm-6">
+            <h1 style="margin-top: 125px;" class="yellow-underline ml-50"><i
+                    class="mr-18 fas fa-map-marker-alt"></i>Adresse</h1>
+            <p class="ml-50">300, allée des Ursulines, C.P. 3300, succ. A, 300 All. des Ursulines, Rimouski, QC G5L 3A1
+            </p>
+            <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-phone-alt"></i>Téléphone</h1>
+            <p class="ml-50">(418) 723-1986</p>
+            <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-envelope"></i>E-mail</h1>
+            <p class="ml-50">ines.maaroufi@uqar.ca | theo.regheasse@uqar.ca</p>
+        </div>
+
+        <!-- MAP -->
+        <div class="col-sm-4">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.207333290279!2d-68.51467612385986!3d48.452551329181375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4c95d9bf34e2acab%3A0x9a4c836523397f8e!2sUQAR%20-%20Universit%C3%A9%20du%20Qu%C3%A9bec%20%C3%A0%20Rimouski!5e0!3m2!1sfr!2sca!4v1698158612949!5m2!1sfr!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- <hr style="border-style: inset; width:100%; text-align:left; margin-left:0; margin-bottom: 100px; color: #FFD68F; height:10px"> -->
+    <!-- FORMS -->
+    <!-- <div class="center-contacts"> -->
+        <div class="">
+
+    <div class="m-50 col-sm-12">
+            <form><label class="col-sm-1">Nom :</label>
+                <input type="text" id="name">
+            </form><br>
+
+            <form><label class="col-sm-1">Prénom :</label>
+                <input type="text" id="firstname">
+            </form><br>
+
+            <form><label class="col-sm-1">Genre :</label>
+                <input type="radio" id="men">
+                <label for="men">Homme</label>
+                <input type="radio" id="women">
+                <label for="women">Femme</label>
+            </form><br>
+
+            <form>
+                <label for="fonctions" class="col-sm-1">Fonction : </label>
+                <select id="fonctions" name="fonctions">
+                    <option value="fonctionnaire">Fonctionnaire</option>
+                    <option value="ouvrier">Ouvrier</option>
+                    <option value="enseignement">Enseignement</option>
+                    <option value="encadrement">Encadrement</option>
+                </select>
+            </form><br>
+
+            <form><label class="col-sm-1">E-mail :</label>
+                <input type="text" id="mail">
+            </form><br>
+
+            <form>
+                <label class="col-sm-1" for="message">Message :</label>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="50">Message</textarea>
+                <br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+</div>
 
 
-<!-- FOOTER -->
-  <div class="col-sm-12 center-footer">
-    <h2 class="yellow-underline">Newsletter</h2>
-    <br>  
-    <form><i class="fas fa-envelope fa-lg"></i></label>
-      <input type="text" value="e-mail" name="name" id="name" >
-      <input type="submit" value="S'abonner">
-    </form>
-    <br>
-    <a href="https://www.facebook.com/"><i class="fab fa-brands fa-facebook fa-lg"></i></a>
-    <a href="https://twitter.com/"><i class="fab fa-brands fa-twitter fa-lg"></i></a>
-    <a href="https://www.youtube.com/"><i class="fab fa-brands fa-youtube fa-lg"></i></a>
-  </div>
+    <!-- FOOTER -->
+    <div class="col-sm-12 center-footer">
+        <h2 class="yellow-underline">Newsletter</h2>
+        <br>
+        <form><i class="fas fa-envelope fa-lg"></i></label>
+            <input type="text" value="e-mail" name="name" id="name">
+            <input type="submit" value="S'abonner">
+        </form>
+        <br>
+        <a href="https://www.facebook.com/"><i class="fab fa-brands fa-facebook fa-lg"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-brands fa-twitter fa-lg"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-brands fa-youtube fa-lg"></i></a>
+    </div>
 
 </body>

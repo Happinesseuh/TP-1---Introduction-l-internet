@@ -56,7 +56,6 @@ div > a:hover::after, div > a.active-nav::after {
   text-decoration-thickness: 5px;
 }
 
-
 .center-footer {
   padding-left: 50px;
   margin-top: 100px;
@@ -69,4 +68,39 @@ div > a:hover::after, div > a.active-nav::after {
 
 .m-50 {
   margin: 50px;
+}
+
+.ml-50 {
+  margin-left: 50px
+}
+
+.mr-18 {
+  margin-right: 18px;
+}
+
+.mr-20 {
+  margin-right: 50px;
+}
+
+.mr-40 {
+  margin-right: 29px;
+}
+
+.ml-18 {
+  margin-left: 124px;
+}
+
+.center-contacts {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
