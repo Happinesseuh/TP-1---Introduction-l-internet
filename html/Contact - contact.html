@@ -63,52 +63,65 @@
     </div>
 
     <!-- FORMS -->
+
     <div class="center-footer mt-600">
         <h2 class="yellow-underline">Contactez-nous !</h2>
     </div>
 
-    <div class="container mt-50">
-        <div class="row">
-            <form><label class="col-sm-5">Nom :</label>
-                <input class="col-sm-6" type="text" id="name">
-            </form><br><br>
-
-            <form><label class="col-sm-5">Prénom :</label>
-                <input class="col-sm-6" type="text" id="firstname">
-            </form><br><br>
-
-            <form><label class="col-sm-5">Genre :</label>
-                <div class="col-sm-7 p-0">
+    <div class="container mt--50">
+        <div class="row center">
+            <form>
+            <div class="mb-15">
+                <label class="col-sm-4" for="username">Nom :</label>
+                <div class="col-sm-8">
+                    <input type="text" name="username" id="username"/>
+                </div>
+            </div><br>
+            <div class="mb-15">
+                <label class="col-sm-4"  for="username">Prénom :</label>
+                <div class="col-sm-8">
+                    <input type="text" name="username" id="username"/>
+                </div>
+            </div><br>
+            <div class="mb-15">
+                <label class="col-sm-4"  for="username">Genre :</label>
+                <div class="col-sm-8">
                     <input type="radio" id="men">
                     <label for="men">Homme</label>
                     <input type="radio" id="women">
                     <label for="women">Femme</label>
                 </div>
-            </form><br><br>
-
-            <form>
-                <label class="col-sm-5" for="fonctions" class="">Fonction : </label>
-                <select class="col-sm-6" id="fonctions" name="fonctions">
-                    <option value="fonctionnaire">Fonctionnaire</option>
-                    <option value="ouvrier">Ouvrier</option>
-                    <option value="enseignement">Enseignement</option>
-                    <option value="encadrement">Encadrement</option>
-                </select>
-            </form><br><br>
-
-            <form><label class="col-sm-5">E-mail :</label>
-                <input class="col-sm-6" type="text" id="mail">
-            </form><br><br>
-
-            <form>
-                <label class="col-sm-5" for="message">Message :</label>
-                <br>
-                <textarea class="col-sm-6" id="message" name="message" rows="4" cols="50">Message</textarea>
-                <br>
-                <input class="send-button mt-50" style="width: 400px;" class="col-sm-12" type="submit" value="Envoyer">
-            </form>
+            </div><br>
+            <div class="mb-15">
+                <label class="col-sm-4" for="username">Fonction :</label>
+                <div class="col-sm-8">
+                    <select id="fonctions" name="fonctions">
+                        <option value="fonctionnaire">Fonctionnaire</option>
+                        <option value="ouvrier">Ouvrier</option>
+                        <option value="enseignement">Enseignement</option>
+                        <option value="encadrement">Encadrement</option>
+                    </select><br>
+                </div>
+            </div><br>
+            <div class="mb-15">
+                <label class="col-sm-4"  for="username">E-mail :</label>
+                <div class="col-sm-8">
+                    <input type="email" name="username" id="username"/>
+                </div>
+            </div><br>
+            <div class="mb-15">
+                <label class="col-sm-4"  for="username">Message</label>
+                <div class="col-sm-8">
+                    <textarea id="message" name="message" rows="4" cols="50">Message</textarea><br>
+                </div>
+            </div><br>
+            <div class="mb-15">
+                <div class=" center">  
+                    <input class="send-button" type="submit" value="Envoyer">
+                </div>
+            </div>     
+        </form>
         </div>
-    </div>
     </div>
 
     <!-- FOOTER -->
