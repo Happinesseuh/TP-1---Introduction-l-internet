@@ -17,3 +17,8 @@
     text-decoration-thickness: 5px;
   }
   
+  .highlighted-description {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
