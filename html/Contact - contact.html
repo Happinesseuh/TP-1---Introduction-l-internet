@@ -43,15 +43,19 @@
     <!-- CONTACT -->
 
     <div class="col-sm-12">
-        <div class="col-sm-6">
-            <h1 class="yellow-underline ml-50 mt-125"><i class="mr-18 fas fa-map-marker-alt"></i>Adresse</h1>
-            <p class="ml-50">300, allée des Ursulines, C.P. 3300, succ. A, 300 All. des Ursulines, Rimouski, QC G5L 3A1
-            </p>
-            <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-phone-alt"></i>Téléphone</h1>
-            <p class="ml-50">(418) 723-1986</p>
-            <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-envelope"></i>E-mail</h1>
-            <p class="ml-50">ines.maaroufi@uqar.ca | theo.regheasse@uqar.ca</p>
-        </div>
+        <address>
+
+            <div class="col-sm-6">
+                <h1 class="yellow-underline ml-50 mt-125"><i class="mr-18 fas fa-map-marker-alt"></i>Adresse</h1>
+                <p class="ml-50">300, allée des Ursulines, C.P. 3300, succ. A, 300 All. des Ursulines, Rimouski, QC G5L
+                    3A1
+                </p>
+                <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-phone-alt"></i>Téléphone</h1>
+                <p class="ml-50">(418) 723-1986</p>
+                <h1 class="yellow-underline ml-50"><i class="mr-18 fas fa-envelope"></i>E-mail</h1>
+                <p class="ml-50">ines.maaroufi@uqar.ca | theo.regheasse@uqar.ca</p>
+            </div>
+        </address>
 
         <!-- MAP -->
         <div class="col-sm-4">
@@ -71,56 +75,56 @@
     <div class="container mt--50">
         <div class="row center">
             <form>
-            <div class="mb-15">
-                <label class="col-sm-4" for="username">Nom :</label>
-                <div class="col-sm-8">
-                    <input type="text" name="username" id="username"/>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">Nom :</label>
+                    <div class="col-sm-8">
+                        <input class="input-rounded" type="text" name="username" id="username" />
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">Prénom :</label>
+                    <div class="col-sm-8">
+                        <input class="input-rounded" type="text" name="username" id="username" />
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">Genre :</label>
+                    <div class="col-sm-8">
+                        <input class="input-rounded" type="radio" id="men">
+                        <label for="men">Homme</label>
+                        <input class="input-rounded" type="radio" id="women">
+                        <label for="women">Femme</label>
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">Fonction :</label>
+                    <div class="col-sm-8">
+                        <select class="input-rounded" id="fonctions" name="fonctions">
+                            <option value="fonctionnaire">Fonctionnaire</option>
+                            <option value="ouvrier">Ouvrier</option>
+                            <option value="enseignement">Enseignement</option>
+                            <option value="encadrement">Encadrement</option>
+                        </select><br>
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">E-mail :</label>
+                    <div class="col-sm-8">
+                        <input class="input-rounded" type="email" name="username" id="username" />
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <label class="col-sm-4" for="username">Message</label>
+                    <div class="col-sm-8">
+                        <textarea class="input-rounded" id="message" name="message" rows="5" cols="22">Message</textarea><br>
+                    </div>
+                </div><br>
+                <div class="mb-15">
+                    <div class=" center">
+                        <input class="send-button" type="submit" value="Envoyer">
+                    </div>
                 </div>
-            </div><br>
-            <div class="mb-15">
-                <label class="col-sm-4"  for="username">Prénom :</label>
-                <div class="col-sm-8">
-                    <input type="text" name="username" id="username"/>
-                </div>
-            </div><br>
-            <div class="mb-15">
-                <label class="col-sm-4"  for="username">Genre :</label>
-                <div class="col-sm-8">
-                    <input type="radio" id="men">
-                    <label for="men">Homme</label>
-                    <input type="radio" id="women">
-                    <label for="women">Femme</label>
-                </div>
-            </div><br>
-            <div class="mb-15">
-                <label class="col-sm-4" for="username">Fonction :</label>
-                <div class="col-sm-8">
-                    <select id="fonctions" name="fonctions">
-                        <option value="fonctionnaire">Fonctionnaire</option>
-                        <option value="ouvrier">Ouvrier</option>
-                        <option value="enseignement">Enseignement</option>
-                        <option value="encadrement">Encadrement</option>
-                    </select><br>
-                </div>
-            </div><br>
-            <div class="mb-15">
-                <label class="col-sm-4"  for="username">E-mail :</label>
-                <div class="col-sm-8">
-                    <input type="email" name="username" id="username"/>
-                </div>
-            </div><br>
-            <div class="mb-15">
-                <label class="col-sm-4"  for="username">Message</label>
-                <div class="col-sm-8">
-                    <textarea id="message" name="message" rows="4" cols="50">Message</textarea><br>
-                </div>
-            </div><br>
-            <div class="mb-15">
-                <div class=" center">  
-                    <input class="send-button" type="submit" value="Envoyer">
-                </div>
-            </div>     
-        </form>
+            </form>
         </div>
     </div>
 
@@ -129,8 +133,8 @@
         <h2 class="yellow-underline">Newsletter</h2>
         <br>
         <form><i class="fas fa-envelope fa-lg"></i></label>
-            <input type="text" value="e-mail" name="name" id="name">
-            <input type="submit" value="S'abonner">
+            <input class="input-rounded" type="text" value="e-mail" name="name" id="name">
+            <input class="input-rounded" type="submit" value="S'abonner">
         </form>
         <br>
         <a href="https://www.facebook.com/"><i class="fab fa-brands fa-facebook fa-lg"></i></a>
